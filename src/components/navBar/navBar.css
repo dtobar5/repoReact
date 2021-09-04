@@ -1,0 +1,27 @@
+.navBar {
+  background: rgb(105, 105, 105);
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+
+.navBar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBar ul li a:hover {
+  background-color: rgb(65, 204, 65);
+}
