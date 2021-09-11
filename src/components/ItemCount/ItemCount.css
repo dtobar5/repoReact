@@ -1,0 +1,29 @@
+.clicker {
+  display: flex;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.stock {
+  font-size: 2rem;
+  justify-content: center;
+  align-self: center;
+  padding: 2rem;
+  margin-top: 1.5rem;
+}
+
+.btnClick {
+  font-size: 2rem;
+  width: 5rem;
+  height: 3rem;
+  justify-content: center;
+  align-self: center;
+  margin-top: 2rem;
+}
+
+.enCarrito {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
