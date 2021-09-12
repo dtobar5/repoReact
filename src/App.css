@@ -7,11 +7,19 @@
 
 .App {
   background: rgb(214, 213, 213);
-  height: 150vh;
+  height: 250vh;
 }
 
 .cardContainer {
+  margin-top: 5rem;
+}
+
+.cardContainer ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+}
+
+.fuente {
+  font-size: 2rem;
 }
