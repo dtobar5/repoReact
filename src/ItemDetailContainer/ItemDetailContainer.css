@@ -1,9 +1,0 @@
-.itemContainer {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.fuente {
-  font-size: 2rem;
-}
