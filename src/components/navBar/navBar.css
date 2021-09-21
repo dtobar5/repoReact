@@ -3,6 +3,27 @@
   color: white;
   display: flex;
   width: 100%;
+  top: 0;
+}
+
+.logo {
+  font-size: 2.5rem;
+  padding: 0.5rem 2rem 0 2rem;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  text-shadow: 0.2rem 0.2rem 0.2rem white;
+}
+
+.navOptions {
+  flex: 3;
+}
+
+.carrito {
+  margin-right: 2rem;
 }
 
 .navBar ul {
@@ -18,10 +39,16 @@
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 1.4rem 1.6rem;
   text-decoration: none;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 .navBar ul li a:hover {
   background-color: rgb(65, 204, 65);
+}
+
+.estado {
+  font-size: 2rem;
 }
